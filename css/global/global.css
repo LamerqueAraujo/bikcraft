@@ -11,7 +11,8 @@ h2,
 h3,
 h4,
 ul,
-p {
+p,
+blkockquote {
   margin: 0;
 }
 
@@ -29,6 +30,7 @@ img {
   max-width: 100%;
   display: block;
 }
+
 img [src$=".jpg"] {
   border-radius: 4px;
 }
