@@ -18,8 +18,40 @@
 .parceiros li {
   display: flex;
   padding: 32px;
+  border-left: 2px solid var(--cor-4);
 }
 
 .parceiros img {
   margin: auto;
+}
+
+.parceiros li:first-child,
+.parceiros li:nth-child(4n + 1) {
+  border-left: none;
+}
+
+.parceiros li:nth-child(n + 5) {
+  border-top: 2px solid var(--cor-4);
+}
+
+@media (max-width: 768px) {
+  .parceiros {
+    padding-bottom: 60px;
+  }
+
+  .parceiros h2 {
+    margin-bottom: 20px;
+  }
+
+  .parceiros ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .parceiros li:nth-child(n + 3) {
+    border-top: 2px solid var(--cor-4);
+  }
+
+  .parceiros li:nth-child(odd) {
+    border-left: none;
+  }
 }
