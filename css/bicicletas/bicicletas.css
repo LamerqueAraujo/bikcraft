@@ -1,0 +1,86 @@
+.bicicletas-bg {
+  background-color: var(--cor-11);
+}
+
+.bicicletas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.bicicletas-imagem {
+  display: grid;
+}
+
+/*O código comentado substituiria perfeitamente o código com o display grid, mas para conhecimento e aumento do arsenal de soluções, usar o grid é um forma de se especializar cada vez mais.*/
+
+.bicicletas-imagem img {
+  grid-area: 1/1;
+  /* position: relative; */
+}
+
+.bicicletas-imagem span {
+  grid-area: 1/1;
+  place-self: start end;
+  /* position: absolute;
+  top: 20px;
+  right: 0; */
+  margin-top: 20px;
+  background-color: var(--cor-12);
+  padding: 8px 16px;
+  display: inline-block;
+  border-radius: 4px 0 0 4px;
+}
+
+.bicicletas-conteudo {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.bicicletas-conteudo h2,
+.bicicletas-conteudo p {
+  grid-column: 1 / -1;
+}
+
+.bicicletas-conteudo h2 {
+  margin-bottom: 20px;
+}
+
+.bicicletas-conteudo h2::before {
+  content: '';
+  display: block;
+  width: 12px;
+  height: 8px;
+  background-color: var(--cor-p1);
+  margin-bottom: 8px;
+}
+
+.bicicletas-conteudo p {
+  margin-bottom: 32px;
+}
+
+.bicicletas-conteudo a {
+  place-self: end;
+}
+
+.bicicletas-conteudo ul {
+  display: grid;
+  gap: 16px;
+}
+
+/*Alternativa ao código de cima*/
+/* .bicicletas-conteudo ul li+li {
+  margin-top: 16px;
+} */
+
+.bicicletas-conteudo ul li {
+  display: flex;
+  align-items: center;
+}
+
+.bicicletas-conteudo ul li img {
+  width: 24px;
+  margin-right: 8px;
+}
