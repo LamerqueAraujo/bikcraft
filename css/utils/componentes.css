@@ -1,9 +1,9 @@
 .container {
   max-width: 1200px;
-  padding: 0 20px;
   box-sizing: border-box;
   margin: 0 auto;
 }
+
 .botao {
   padding: 16px 32px;
   display: inline-block;
@@ -28,6 +28,7 @@
 .botao.secundaria:hover {
   background: var(--cor-9);
 }
+
 .link {
   display: inline-block;
   color: var(--cor-p1);
@@ -47,6 +48,7 @@
 .link:hover {
   color: var(--cor-0);
 }
+
 @media (max-width: 600px) {
 
   .botao {
