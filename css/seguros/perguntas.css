@@ -7,12 +7,12 @@
   margin-bottom: 60px;
 }
 
-.perguntas dl > div {
+.perguntas dl>div {
   padding: 20px;
   border-radius: 4px;
 }
 
-.perguntas dl > div:nth-child(odd) {
+.perguntas dl>div:nth-child(odd) {
   background-color: var(--cor-1);
 }
 
@@ -32,7 +32,7 @@
   background-color: var(--cor-p1);
 }
 
-.perguntas dt::after{
+.perguntas dt::after {
   content: "";
   display: inline-block;
   width: 14px;
@@ -53,12 +53,14 @@
 
 @media (max-width: 768px) {
   .perguntas {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 32px;
+  }
+
+  .perguntas dl>div {
+    padding: 0;
   }
 
   .perguntas h2 {
     margin-bottom: 40px;
   }
 }
-

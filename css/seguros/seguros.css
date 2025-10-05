@@ -11,10 +11,11 @@
     align-items: center;
   }
 
-#seguros .seguros {
-  padding-top: 0;
-  ;
-}
+  #seguros .seguros {
+    padding-top: 0;
+    ;
+  }
+
   .seguros h2 {
     grid-column: 1 / -1;
   }
@@ -68,6 +69,15 @@
   }
 
   @media (max-width: 768px) {
+
+    #seguros .titulo {
+      padding: 32px;
+    }
+
+    #seguros .titulo-bg {
+      padding: 32px;
+    }
+
     .seguros {
       grid-template-columns: 1fr;
       gap: 20px;

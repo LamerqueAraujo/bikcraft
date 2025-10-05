@@ -12,18 +12,27 @@
 }
 
 .vantagens ul {
-  display:grid;
+  display: grid;
   /*O código dentro do repeat significa, repita até que as dimesões possam ser atendidas, caso não forem atendidas, quebra para 1fr 1 fr e depois apenas 1 fr.*/
   grid-template-columns: repeat(auto-fit, minmax(220px, max-content));
   gap: 40px 80px;
 }
 
-.vantagens h3, 
+.vantagens h3,
 .vantagens img {
   margin-bottom: 8px;
 }
 
 @media (max-width: 768px) {
+
+  #seguros .titulo {
+    padding: 32px;
+  }
+
+  #seguros .vantagens-bg {
+    padding: 32px;
+  }
+
   .vantagens {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -31,7 +40,7 @@
 
   .vantagens h2 {
     margin-bottom: 40px;
-  }  
+  }
 
   .vantagens ul {
     gap: 20px;

@@ -85,7 +85,16 @@
   width: 24px;
   margin-right: 8px;
 }
+
 @media (max-width: 768px) {
+  #bicicletas .titulo {
+    padding: 32px;
+  }
+
+  #bicicletas .titulo-bg {
+    padding: 0;
+  }
+
   .bicicletas-bg {
     background: linear-gradient(to right, var(--cor-11) 0%);
   }
@@ -93,8 +102,7 @@
   .bicicletas {
     grid-template-columns: 1fr;
     gap: 20px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 32px;
   }
 }
 
