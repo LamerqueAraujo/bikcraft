@@ -1,27 +1,27 @@
 .font-1-xs {
   /*font-weight, font-size, line-heigth, font-family*/
-  font: 400 1.15rem/1.35 "Poppins", sans-serif;
+  font: 400 0.15rem/1.35 "Poppins", sans-serif;
 }
 
 .font-2-xs {
   /*font-weight, font-size, line-heigth, font-family*/
-  font: 400 1.875rem/1.43 "Roboto", sans-serif;
+  font: 400 0.875rem/1.43 "Roboto", sans-serif;
 }
 
 .font-1-s {
   /*font-weight, font-size, line-heigth, font-family*/
-  font: 400 2rem/1.5 "Poppins", sans-serif;
+  font: 400 1rem/1.5 "Poppins", sans-serif;
 }
 
 .font-2-s {
   /*font-weight, font-size, line-heigth, font-family*/
-  font: 400 1rem/1.5 "Roboto", sans-serif;
+  font: 400 1.12rem/1.5 "Roboto", sans-serif;
 }
 
 .font-1-m,
 .font-1-m-b {
   /*font-weight, font-size, line-heigth, font-family*/
-  font: 400 1.12rem/1.35 "Poppins", sans-serif;
+  font: 400 1.25rem/1.35 "Poppins", sans-serif;
 }
 
 .font-1-m-b {

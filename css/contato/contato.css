@@ -68,8 +68,13 @@
 }
 
 @media (max-width: 768px) {
+  .titulo-bg {
+    padding: 32px 32px 0 32px;
+  }
+
   .contato {
     grid-template-columns: 1fr;
+    padding: 32px;
   }
 
   .contato-dados,
