@@ -87,6 +87,10 @@
     padding-bottom: 40px;
   }
 
+  .container {
+    padding: 32px;
+  }
+
   .titulo p {
     font-size: 1rem;
     text-transform: lowercase;
