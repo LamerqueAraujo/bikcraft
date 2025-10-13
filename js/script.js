@@ -60,3 +60,9 @@ galeria.forEach((img) => {
     }
   })
 });
+
+// Animação
+
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
